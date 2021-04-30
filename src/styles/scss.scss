@@ -1,0 +1,14 @@
+$border: 1px solid rgb(180, 179, 179);
+$darc-color: rgb(139, 0, 74);
+
+.box__sass {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: $border;
+
+  h2 {
+    text-align: center;
+    color: $darc-color;
+  }
+}

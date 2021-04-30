@@ -1,0 +1,30 @@
+@import "~normalize.css";
+@import 'roboto.css';
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background-image: url('../assets/webpack-logo.png');
+  background-size: cover;
+}
+
+.code {
+  color: crimson;
+}
